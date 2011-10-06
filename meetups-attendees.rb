@@ -9,7 +9,7 @@ require 'open-uri'
 
 urls = []
 urls << "http://lanyrd.com/2010/first-devops-meetup-paris/attendees/?page="
-2.upto(6) do |i|
+2.upto(7) do |i|
   urls << "http://lanyrd.com/2011/paris-devops-meetup-#{i}/attendees/?page="
 end
 
